@@ -1,0 +1,83 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #fafafa; /* cor de fundo*/
+    width:100vw; /* largura*/
+    height:100vh; /*altura */
+   display: flex;
+   align-items: center;
+   justify-content: center ;
+   font-family: sans-serif;
+}
+
+.insta-logo {
+    margin-bottom: 20px;
+}
+
+.caixa-celular {
+  position: relative;
+}
+.imagem-celular {
+    width: 450px;
+
+}
+
+.imagem-insta {
+  height: 520px;
+  position: absolute;
+  left: 153px;
+  top: 28px;
+
+}
+ .caixa-formularios {
+    width: 350px;
+    border: 1px solid  #dbdbdb;
+    padding: 50px 40px 20px 40px;
+    display:flex;
+    flex-direction:column;
+    background-color:#ffffff
+  }
+
+  input {
+    height: 36px; /*altura*/
+    margin: 5px;  /* distanciada*/
+    border: 1px solid #dbdbdb;
+    border-radius: 5px; /* arredondar borda */
+    outline: none;
+    padding-left: 5px;
+    color: black;
+  }
+
+  button {
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .login-face {
+    color: #385185;
+    font-size: 14px;  /* tamanho da fonte */
+    font-weight: bold;  /*espessura da fonte / bold = negrito */
+    text-align: center; /* alinhamento do texto */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer; /* cursor fica como uma mãozinha ao passar */
+
+
+  }
+
+  .esqueu-senha {
+    color: #385185;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    
+  }
